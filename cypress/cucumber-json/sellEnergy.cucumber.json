@@ -1,0 +1,42 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Sell Energy",
+    "line": 1,
+    "id": "sell-energy",
+    "tags": [],
+    "uri": "sellEnergy.feature",
+    "elements": [
+      {
+        "id": "sell-energy;sell-energy",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Sell Energy",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "New customer clicks sell energy button on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 9316000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Customer redirects to Sell - Candidate Test page",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

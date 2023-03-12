@@ -1,0 +1,42 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Contact US",
+    "line": 1,
+    "id": "contact-us",
+    "tags": [],
+    "uri": "contact.feature",
+    "elements": [
+      {
+        "id": "contact-us;contact",
+        "keyword": "Scenario",
+        "line": 3,
+        "name": "Contact",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 4,
+            "name": "New customer clicks contact Nav on the home page",
+            "result": {
+              "status": "passed",
+              "duration": 7789000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 5,
+            "name": "Customer redirects to Contact - Candidate Test page",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
